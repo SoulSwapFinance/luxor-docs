@@ -16,7 +16,7 @@ We intend to achieve price flatness for a representative basket of goods without
 
 ## How do I participate in Luxor? <a href="#how-do-i-participate-in-olympus" id="how-do-i-participate-in-olympus"></a>
 
-There are two main strategies for market participants: [**staking**](https://app.wonderland.money/stake) and minting. Stakers stake their **LUX** tokens in return for more **LUX** tokens, while minters provide LP tokens or **DAI** tokens in exchange for discounted **LUX** tokens after a fixed vesting period.
+There are two main strategies for market participants: [**staking**](https://app.luxor.money/stake) and minting. Stakers stake their **LUX** tokens in return for more **LUX** tokens, while minters provide LP tokens or **DAI** tokens in exchange for discounted **LUX** tokens after a fixed vesting period.
 
 ## How can I benefit from Luxor? <a href="#how-can-i-benefit-from-olympus" id="how-can-i-benefit-from-olympus"></a>
 
