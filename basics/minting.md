@@ -2,7 +2,7 @@
 
 ## What is Minting? <a href="#what-is-minting" id="what-is-minting"></a>
 
-**Minting is the secondary value accrual strategy of Luxor.** When users mint **LUX** tokens, they are actually selling their assets in order to buy a bond from the protocol. Minting Actions are a cross between a fixed income product, a futures contract, and an option. The protocol quotes the minter with terms for a trade at a future date. These terms include a predefined amount of **LUX** the minter will mint and the time when vesting is complete. The bond becomes redeemable as it vests. I.e. in a 5-day term, after 2 days into the term 40% of the rewards can be claimed.
+**Minting is the secondary value accrual strategy of Luxor.** When users mint **LUX** tokens, they are actually selling their assets in order to buy a bond from the protocol. Minting Actions are a cross between a fixed income product, a futures contract, and an option. The protocol quotes the minter with terms for a trade at a future date. These terms include a predefined amount of **LUX** the minter will mint at the completion (end) of their vesting period. The bond becomes redeemable as it vests. In other words, in a 5-day term, after 2 days into the term 40% of the rewards are claimable.
 
 **Minting is an active, short-term strategy.** The price discovery mechanism of the secondary bond market renders mints discounts more or less unpredictable. Therefore minting is considered a more active investment strategy that has to be monitored constantly in order to be more profitable as compared to staking.
 

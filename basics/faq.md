@@ -6,13 +6,13 @@ Dollar-pegged stable coins have become an essential part of crypto due to their 
 
 Luxor aims to solve this by creating a non-pegged stable coin called **LUX**. By focusing on supply growth rather than price appreciation, Luxor hopes that **LUX** can function as a currency that is able to hold its purchasing power regardless of market volatility.
 
-## Is LUX a stablecoin? <a href="#is-time-a-stable-coin" id="is-time-a-stable-coin"></a>
+## Is LUX a stablecoin? <a href="#is-lux-a-stable-coin" id="is-lux-a-stable-coin"></a>
 
 **No, LUX is not a stable coin**. Rather, **LUX** aspires to become an algorithmic reserve currency backed by other decentralized assets. Similar to the idea of the gold standard, **LUX** provides free-floating value its users can always fall back on, simply because of the fractional treasury reserves **LUX** draws its intrinsic value from.
 
 
 
-## **LUX** is backed, not pegged. <a href="#time-is-backed-not-pegged-1" id="time-is-backed-not-pegged-1"></a>
+## **LUX** is backed, not pegged. <a href="#lux-is-backed-not-pegged-1" id="lux-is-backed-not-pegged-1"></a>
 
 Each **LUX** is backed by 1 **DAI**, not pegged to it. Because the treasury backs every **LUX** with at least 1 **DAI**, the protocol would buy back and burn **LUX** when it trades below 1 **DAI**. This has the effect of pushing **LUX** price back up to 1 **DAI**. **LUX** could always trade above 1 **DAI** because there is no upper limit imposed by the protocol. Think pegged == 1, while backed >= 1.
 
@@ -55,7 +55,7 @@ It is extremely important to understand how early in development the Luxor proto
 
 **LUX** could trade at a very high price because the market is ready to pay a hefty premium to capture a percentage of the current market capitalization. However, the price of **LUX** could also drop to a large degree if the market sentiment turns bearish. We would expect significant price volatility during our growth phase so please **do your own research** whether this project suits your goals.
 
-## What is the point of buying it now when **LUX** trades at a very high premium? <a href="#what-is-the-point-of-buying-it-now-when-time-trades-at-a-very-high-premium" id="what-is-the-point-of-buying-it-now-when-time-trades-at-a-very-high-premium"></a>
+## What is the point of buying it now when **LUX** trades at a very high premium? <a href="#what-is-the-point-of-buying-it-now-when-time-trades-at-a-very-high-premium" id="what-is-the-point-of-buying-it-now-when-lux-trades-at-a-very-high-premium"></a>
 
 When you buy and stake **LUX**, you capture a percentage of the supply (market cap) which will remain close to a constant. This is because your staked **LUX** balance also increases along with the circulating supply. The implication is that if you buy **LUX** when the market cap is low, you would be capturing a larger percentage of the market cap.
 
@@ -101,7 +101,7 @@ $$
 
 Note that the reward rate is subject to change by the protocol.
 
-## Why does the price of LUX become irrelevant in long term? <a href="#why-does-the-price-of-time-become-irrelevant-in-long-term" id="why-does-the-price-of-time-become-irrelevant-in-long-term"></a>
+## Why does the price of LUX become irrelevant in long term? <a href="#why-does-the-price-of-time-become-irrelevant-in-long-term" id="why-does-the-price-of-lux-become-irrelevant-in-long-term"></a>
 
 As illustrated above, your **LUX** balance will grow exponentially over time thanks to the power of compounding. Let's say you buy a **LUX** for $400 now and the market decides that in 1 year time, the intrinsic value of **LUX** will be $2.&#x20;
 
@@ -113,7 +113,7 @@ There is no clear answer for this, but the intrinsic value can be determined by 
 
 ## How does the protocol manage to maintain the high staking APY? <a href="#how-does-the-protocol-manage-to-maintain-the-high-staking-apy" id="how-does-the-protocol-manage-to-maintain-the-high-staking-apy"></a>
 
-Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the [**equation**](https://wonderland.gitbook.io/wonderland/basics/faq#how-is-the-apy-calculated) above to learn how APY is calculated from the rebase rate.
+Let’s say the protocol targets an APY of 100,000%. This would translate to a rebase rate of about 0.6328%, or a daily growth of about 2%. Please refer to the **equation** above to learn how APY is calculated from the rebase rate.
 
 If there are 100,000 **LUX** tokens staked right now, the protocol would need to mint an additional 2000 **LUX** to achieve this daily growth. This is achievable if the protocol can bring in at least 2000 **DAI** daily from bond sales. If the protocol fails to achieve this, the APY of 100,000% cannot be guaranteed.
 

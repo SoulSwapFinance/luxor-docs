@@ -70,7 +70,7 @@ The reward yield is a rough target from a policy point of view.&#x20;
 
 It can almost never be maintained precisely due to e.g. fluctuating amounts of **LUX** staked.
 
-## Backing per LUX <a href="#backing-per-time" id="backing-per-time"></a>
+## Backing per LUX <a href="#backing-per-lux" id="backing-per-lux"></a>
 
 _Backing per LUX_, is the amount of funds the treasury guarantees to use for backing **LUX**.
 
