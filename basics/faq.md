@@ -61,7 +61,7 @@ When you buy and stake **LUX**, you capture a percentage of the supply (market c
 
 ## What is a rebase? <a href="#what-is-a-rebase" id="what-is-a-rebase"></a>
 
-Rebase is a mechanism by which your staked **LUX** balance increases automatically. When new **LUX** are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked **LUX** balance instead of **LUX** the protocol utilizes the rebase mechanism to increase the staked **LUX** balance so that 1 staked **LUX** (**MEMOries**) is always redeemable for 1 **LUX**.
+Rebase is a mechanism by which your staked **LUX** balance increases automatically. When new **LUX** are minted by the protocol, a large portion of it goes to the stakers. Because stakers only see staked **LUX** balance instead of **LUX** the protocol utilizes the rebase mechanism to increase the staked **LUX** balance so that 1 staked **LUX** (**LUMens**) is always redeemable for 1 **LUX**.
 
 ## What is reward yield? <a href="#what-is-reward-yield" id="what-is-reward-yield"></a>
 
