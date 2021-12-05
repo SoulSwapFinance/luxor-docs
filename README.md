@@ -26,7 +26,7 @@ The main benefit for minters comes from price consistency. Minters commit a capi
 
 ## Who created Luxor? <a href="#who-created-olympus" id="who-created-olympus"></a>
 
-**Luxor** is a fork of [**Olympus**](https://www.olympusdao.finance) **** on the Avalanche Network. Our team is mostly anonymous, born from the DeFi Community. We aim at becoming a Decentralized Autonomous Organization, and we are actively working towards that goal.
+**Luxor** is a fork of [**Olympus**](https://www.olympusdao.finance) **** on the Fantom Opera Network. Our team is mostly anonymous, born from the DeFi Community. We aim at becoming a Decentralized Autonomous Organization, and we are actively working towards that goal.
 
 ## Who runs Luxor? <a href="#who-runs-olympus" id="who-runs-olympus"></a>
 

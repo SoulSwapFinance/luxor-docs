@@ -137,7 +137,7 @@ $$
 
 ## Is Luxor Audited?
 
-Luxor is currently unaudited! It is a fork of Olympus DAO on the Avalanche Network, audits will occur at a later stage.&#x20;
+Luxor is currently unaudited! It is a fork of Olympus DAO on the Fantom Opera Network, audits will occur at a later stage.&#x20;
 
 **Stay cautious!**
 
