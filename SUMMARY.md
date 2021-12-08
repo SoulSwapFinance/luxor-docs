@@ -12,6 +12,7 @@
 
 * [Stake LUX](using-luxor/stake-lux.md)
 * [Mint LUX](using-luxor/mint-lux.md)
+* [Wrap LUM](using-luxor/wrap-lum.md)
 
 ## Protocol Internals
 
