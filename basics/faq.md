@@ -36,7 +36,7 @@ Staking and minting are considered beneficiary to the protocol, while selling is
 
 Thus, given two actors, all scenarios of what they could do and the effect on the protocol are shown here:
 
-* If we both stake  (⭐,⭐), it is the best thing for both of us and the protocol (both users gets the The Mad Hatter's hat).
+* If we both stake  (☀️,☀️), it is the best thing for both of us and the protocol (both users gets the The golden Suns).
 * If one of us stakes and the other one bonds, it is also great because staking takes **LUX** off the market and put it into the protocol, while bonding provides liquidity and **DAI** for the treasury!&#x20;
 * When one of us sells, it diminishes effort of the other one who stakes or bonds.
 * When we both sell, it creates the worst outcome for both of us and the protocol (❌, ❌)
