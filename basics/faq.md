@@ -24,9 +24,9 @@ At a high level, Luxor consists of its protocol managed treasury, protocol owned
 
 Bonding in the "Mint" page generates profit for the protocol, and the treasury uses the profit to mint **LUX** and distribute them to stakers. With LP bond, the protocol is able to accumulate liquidity to ensure the system stability.
 
-## What is the deal with (⭐, ⭐) and (🏦, 🏦)? <a href="#what-is-the-deal-with-hat-hat" id="what-is-the-deal-with-hat-hat"></a>
+## What is the deal with (☀️,☀️) and (🏦, 🏦)? <a href="#what-is-the-deal-with-sun-sun" id="what-is-the-deal-with-sun-sun"></a>
 
-(⭐, ⭐) is the idea that, if everyone cooperated in Luxor, it would generate the greatest gain for everyone (from a [**game theory**](https://en.wikipedia.org/wiki/Game\_theory) standpoint). Currently, there are three actions a user can take:
+(☀️,☀️) is the idea that, if everyone cooperated in Luxor, it would generate the greatest gain for everyone (from a [**game theory**](https://en.wikipedia.org/wiki/Game\_theory) standpoint). Currently, there are three actions a user can take:
 
 * _Staking_&#x20;
 * _Minting_ (_Bonding_)
