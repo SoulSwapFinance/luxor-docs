@@ -6,11 +6,11 @@ description: Luxor Money's Documentation
 
 ## What is Luxor?
 
-[**Luxor**](https://luxor.money) is the first decentralized reserve currency protocol available on the **Fantom Opera Network** based on the **LUX** token. Each **LUX** token is backed by a basket of assets (e.g., DAI, LUX-FTM LP Tokens, etc.) in the **Luxor** treasury, giving it an intrinsic value that it cannot fall below. **Luxor** also introduces economic and game-theoretic dynamics into the market through staking and minting.&#x20;
+[**Luxor**](https://luxor.money) is the first decentralized reserve currency protocol available on the **Fantom Opera Network** based on the **LUX** token. Each **LUX** token is backed by a basket of assets (e.g., DAI, LUX-FTM LP Tokens, etc.) in the **Luxor** treasury, giving it an intrinsic value that it cannot fall below. **Luxor** also introduces economic and game-theoretic dynamics into the market through staking and minting.
 
 ## What is the point of **Luxor**?
 
-Our goal is to build a policy-controlled currency system, native on the **FTM** network, in which the behavior of the **LUX** token! In the long term, we believe this system can be used to optimize for stability and consistency so that **LUX** can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
+Our goal is to build a policy-controlled currency system, native on the **FTM** network. In the long term, we believe this system can be used to optimize for stability and consistency so that **LUX** can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
 
 We intend to achieve price flatness for a representative basket of goods without the use of fiat currency, in order to allow the cryptocurrency industry to detach once and for all from the traditional finance world!
 
@@ -26,7 +26,7 @@ The main benefit for minters comes from price consistency. Minters commit a capi
 
 ## Who created Luxor? <a href="#who-created-olympus" id="who-created-olympus"></a>
 
-**Luxor** is a fork of [**Olympus**](https://www.olympusdao.finance) **** on the Fantom Opera Network. Our team is mostly anonymous, born from the DeFi Community. We aim at becoming a Decentralized Autonomous Organization, and we are actively working towards that goal.
+**Luxor** is a fork of [**Olympus**](https://www.olympusdao.finance) \*\*\*\* on the Fantom Opera Network. Our team is mostly anonymous, born from the DeFi Community. We aim at becoming a Decentralized Autonomous Organization, and we are actively working towards that goal.
 
 ## Who runs Luxor? <a href="#who-runs-olympus" id="who-runs-olympus"></a>
 
