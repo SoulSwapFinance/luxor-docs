@@ -6,15 +6,15 @@ _Annual Percentage Rate_, is the annualized interest rate without taking the eff
 
 ## APY <a href="#apy" id="apy"></a>
 
-_Annual Percentage Yield_, is the normalized representation of an interest rate, based on a compounding period over one year.&#x20;
+_Annual Percentage Yield_, is the normalized representation of an interest rate, based on a compounding period over one year.
 
 **Note**: APYs provided are rather ballpark level indicators and not so much precise future results.
 
 ## BCV <a href="#bcv" id="bcv"></a>
 
-_Bond Control Variable_, is the scaling factor at which bond prices change.&#x20;
+_Bond Control Variable_, is the scaling factor at which bond prices change.
 
-**A higher BCV** means a lower discount for minters and **higher inflation by the protocol**.&#x20;
+**A higher BCV** means a lower discount for minters and **higher inflation by the protocol**.
 
 **A lower BCV** means a higher discount for minters and **lower inflation by the protocol**.
 
@@ -24,15 +24,15 @@ _Decentralized Autonomous Organization_, is a governance mechanism for making de
 
 ## DCV <a href="#dcv" id="dcv"></a>
 
-_Deflation Control Variable_, is the scaling factor at which protocol defined buy-pressure changes.&#x20;
+_Deflation Control Variable_, is the scaling factor at which protocol defined buy-pressure changes.
 
-**A higher DCV** means more buy-pressure from the protocol, resulting in a **higher deflation**.&#x20;
+**A higher DCV** means more buy-pressure from the protocol, resulting in a **higher deflation**.
 
 **A lower DCV** means less buy-pressure from the protocol, resulting in a **lower deflation**.
 
 ## EVM <a href="#evm" id="evm"></a>
 
-_Ethereum Virtual Machine_, is a state machine in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one canonical state, and the EVM is what defines the rules for computing a new valid state from block to block. _Fantom Opera is an EVM Compatible Netwrok!_
+_Ethereum Virtual Machine_, is a state machine in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one canonical state, and the EVM is what defines the rules for computing a new valid state from block to block. _Fantom Opera is an EVM Compatible Network!_
 
 ## Liquidity Bonds <a href="#liquidity-bonds" id="liquidity-bonds"></a>
 
@@ -48,13 +48,13 @@ _Protocol Owned Liquidity_, is the amount of LP the treasury owns and controls. 
 
 ## PoR <a href="#por" id="por"></a>
 
-_Proof of Reserve_, is the mechanism of strengthening the reserve of the Luxor Treasury via the **sales of bonds** (i.e minting new **LUX**).&#x20;
+_Proof of Reserve_, is the mechanism of strengthening the reserve of the Luxor Treasury via the **sales of bonds** (i.e minting new **LUX**).
 
 Minters **provide liquidity to the treasury**, thereby building its reserve. In return for their service, bonders get paid in **LUX**.
 
 ## Reserve Bonds <a href="#reserve-bonds" id="reserve-bonds"></a>
 
-Reserve bonds are all the bonds that allows users to **MINT LUX** using single assets. They are sometimes referred to as "naked" bonds.&#x20;
+Reserve bonds are all the bonds that allows users to **MINT LUX** using single assets. They are sometimes referred to as "naked" bonds.
 
 Examples are **DAI** bonds.
 
@@ -64,9 +64,9 @@ Reward rate is the configured percentage of **LUX** distributed to all stakers o
 
 ## Reward Yield <a href="#reward-yield" id="reward-yield"></a>
 
-Reward yield refers to the actual amount of **LUX** received by each staker on each rebase.&#x20;
+Reward yield refers to the actual amount of **LUX** received by each staker on each rebase.
 
-The reward yield is a rough target from a policy point of view.&#x20;
+The reward yield is a rough target from a policy point of view.
 
 It can almost never be maintained precisely due to e.g. fluctuating amounts of **LUX** staked.
 
