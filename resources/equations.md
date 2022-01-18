@@ -111,12 +111,12 @@ The DAO receives the same amount of **LUX** as the minter. This represents the *
 ## **Backing Price (Price Floor)**
 
 $$
-Price Floor = Reserves / Circulating
+Price Floor = Reserves / Supply
 $$
 
 The assets in the treasury may be divided into two categories: reserves and liquidity. Unlike other reserve currencies, **Luxor DAO guarantees a defendable price floor**, which is determined by the equation above.
 
-The intuition here is for each dollar value in our reserves, we are able to cover the circulating supply at a floating price floor. _Reserves_ are stated in the Dashboard and equal to the following:
+The intuition here is for each dollar value in our reserves, we are able to cover the total supply at a floating price floor. _Reserves_ are stated in the Dashboard and equal to the following:
 
 $$
 Reserves = DAI_b + (FTM_b * FTM_p)
