@@ -23,3 +23,4 @@
 
 * [Equations](resources/equations.md)
 * [Glossary](resources/glossary.md)
+* [Bond Limits](resources/bond-limits.md)
