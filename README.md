@@ -26,8 +26,8 @@ The main benefit for minters comes from price consistency. Minters commit a capi
 
 ## Who's behind Luxor? <a href="#who-created-olympus" id="who-created-olympus"></a>
 
-**Luxor** was created by [**SoulSwap**](https://exchange.soulswap.finance) **cofounder Buns.** She **** is fully-doxed and able to assist you, if you require personal assistance or reassurance regarding the authenticity of Luxor and subsequently, your investment. \
+**Luxor** was created by [**SoulSwap**](https://exchange.soulswap.finance) **** cofounder **Buns.** She **** is a trained professional with a Master's Degree in Applied Economics and industry experience, serving as President of QUANTS at the world's largest AC manufacturer for 2 years prior to going full-time crypto as a developer in 2020. Prior to founding Luxor, Buns served as the Lead Solidity Developer for 4 cryptocurrency projects.\
 \
-**Read about Buns**: [https://ideamensch.com/buns-enchantress](https://ideamensch.com/buns-enchantress/)\
+**Read more about Buns in her recent interview with IdeaMensch**: [https://ideamensch.com/buns-enchantress](https://ideamensch.com/buns-enchantress/)\
 \
 Currently, majority of the decisions are taken by the core team, however we expect to eventually convert into a DAO-governed model, once the opportunity presents itself. The Luxor protocol is also a part of the Soul Ecosystem, which provides us with a unique synergy between an exchange and reserve currency.
