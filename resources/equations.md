@@ -13,7 +13,7 @@ $$
 Swaps between **LUX** and **LUM** during deposits and withdrawals are always honored 1:1. The amount of **LUX** deposited will always result in the same amount of **LUM**. The amount of **LUM** withdrawn from the staking contract will always result in the same amount of **LUX**.
 
 $$
-rebase = 1 - ( LUXDeposits / LUMens
+rebase = 1 - ( LUXDeposits / LUM
 Outstanding )
 $$
 
