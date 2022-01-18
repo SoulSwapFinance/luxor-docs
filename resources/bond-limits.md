@@ -15,27 +15,27 @@ description: Each bond has a corresponding limit, as described in the tables bel
 
 ### DAI-LUX Asset Limits
 
-|   Term  |  Debt Limit  |
-| :-----: | :----------: |
-|  5 Days |              |
-|  7 Days |              |
-| 2 Weeks |              |
-| 4 Weeks | 500000000000 |
+|   Term  |   Debt Limit  |
+| :-----: | :-----------: |
+|  5 Days | 1000000000000 |
+|  7 Days | 1500000000000 |
+| 2 Weeks |  500000000000 |
+| 4 Weeks |  500000000000 |
 
 ### FTM Asset Limits
 
-|   Term  |   Debt Limit  |
-| :-----: | :-----------: |
-|  5 Days |               |
-|  7 Days |               |
-| 2 Weeks |               |
-| 4 Weeks | 5000000000000 |
+|   Term  |   Debt Limit   |
+| :-----: | :------------: |
+|  5 Days | 12500000000000 |
+|  7 Days |  8000000000000 |
+| 2 Weeks |  5000000000000 |
+| 4 Weeks |  5000000000000 |
 
 ### FTM-LUX Asset Limits
 
 |   Term  |   Debt Limit  |
 | :-----: | :-----------: |
-|  5 Days |               |
+|  5 Days | 1500000000000 |
 |  7 Days |  500000000000 |
 | 2 Weeks | 1000000000000 |
-| 4 Weeks |               |
+| 4 Weeks |  500000000000 |
