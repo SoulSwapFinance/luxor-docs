@@ -26,7 +26,7 @@ The main benefit for minters comes from price consistency. Minters commit a capi
 
 ## Who created Luxor? <a href="#who-created-olympus" id="who-created-olympus"></a>
 
-**Luxor** was created by [**SoulSwap**](https://exchange.soulswap.finance) **cofounder Buns**, who is fully-doxed and able to assist you, if you require personal assistance or reassurance regarding the authenticity of Luxor and subsequently, your investment. \
+**Luxor** was created by [**SoulSwap**](https://exchange.soulswap.finance) **cofounder Buns.** She **** is fully-doxed and able to assist you, if you require personal assistance or reassurance regarding the authenticity of Luxor and subsequently, your investment. \
 \
 **Read about Buns**: [https://ideamensch.com/buns-enchantress/](https://ideamensch.com/buns-enchantress/)
 
