@@ -4,26 +4,34 @@ description: It's not as tough as it looks, give it a try and understand how we 
 
 # Equations
 
-## Staking
+## Staking // Rebasing
 
 $$
 deposit = withdrawal
 $$
 
-Swaps between **LUX** and **LUMens** during staking and unstaking are always honored 1:1. The amount of **LUX** deposited into the staking contract will always result in the same amount of **LUMens**. And the amount of **LUMens** withdrawn from the staking contract will always result in the same amount of **LUX**.
+Swaps between **LUX** and **LUM** during deposits and withdrawals are always honored 1:1. The amount of **LUX** deposited will always result in the same amount of **LUM**. The amount of **LUM** withdrawn from the staking contract will always result in the same amount of **LUX**.
 
 $$
 rebase = 1 - ( LUXDeposits / LUMens
 Outstanding )
 $$
 
-The treasury deposits **LUX** into the distributor. The distributor then deposits **LUX** into the staking contract, creating an imbalance between **LUX** and **LUMens**.&#x20;
+The treasury deposits **LUX** into the distributor. The distributor then deposits **LUX** into the staking contract, creating an imbalance between **LUX** and **LUM**.&#x20;
 
-**LUMens** are rebased to correct this imbalance between **LUX** deposited and **LUMens** outstanding. The rebase brings **LUMens** outstanding back up to parity so that 1 **LUMens** equals 1 staked **LUX**.
+**LUM** is rebased to correct this imbalance between **LUX** deposited and **LUM** outstanding. The rebase brings **LUM** outstanding back up to parity so that 1 **LUM** equals 1 staked **LUX**.
 
-## Minting
+## Circulating Supply
 
-Minting happens by allowing users to purchase a bond. This bond price is the Mint price.
+**Circulating Supply** is equal to total **LUX** minted, minus the total balance of Luxor stored in the DAO smart contract, our liquidity pools, bonds, or staked.
+
+$$
+circulating = total - dao - pooled - mintable - staked
+$$
+
+## Minting // Price
+
+Minting enables users to purchase bonds. This bond price is the mint price.
 
 $$
 bond Price = 1 + Premium
@@ -35,9 +43,11 @@ $$
 Premium = debt Ratio * BCV
 $$
 
-The premium is derived from the debt ratio of the system and a scaling variable called BCV. BCV allows us to control the rate at which bond prices increase.
+The **premium** is derived from the debt ratio of the system and a scaling variable called **BCV**.
 
-The premium determines profit due to the protocol and in turn, stakers. This is because new **LUX** is minted from the profit and subsequently distributed among all stakers.
+**BCV** allows us to control the rate at which bond prices increase.
+
+The **premium** determines profit due to the protocol and in turn, stakers. This is because new **LUX** is minted from the profit and subsequently distributed among all stakers.
 
 $$
 debt Ratio = bondsOutstanding/LUXSupply
@@ -61,7 +71,7 @@ $$
 
 For liquidity mints, the market value of the LP tokens supplied by the minter is used to determine the bond payout. For example, if a user supplies **0.001 LUX-FTM LP token** which is valued at **1000 DAI** at the time of bonding, and the bond price is **250 DAI**, the user will be entitled 4 **LUX**.&#x20;
 
-## **LUX** Supply
+## **Luxor** Supply
 
 $$
 LUX_{supplyGrowth} = LUX_{stakers} + LUX_{bonders} + LUX_
@@ -98,32 +108,18 @@ $$
 
 The DAO receives the same amount of **LUX** as the minter. This represents the **DAO profit**.
 
-## Backing per LUX
+## **Backing Price (Price Floor)**
 
 $$
-LUX_{backing} = treasuryBalance_{stablecoin} + treasuryBalance_{otherAssets}
+Price Floor = Circulating / Reserves
 $$
 
-Every **LUX** in circulation is backed by the **Luxor** treasury.&#x20;
+The assets in the treasury may be divided into two categories: reserves and liquidity. Unlike other reserve currencies, **Luxor DAO guarantees a defendable price floor**, which is determined by the equation above.
 
-The assets in the treasury can be divided into two categories: stable coin and non-stable coin.
-
-$$
-treasuryBalance_{stablecoin} = BackingPerLUX_{reserveBond} + BackingPerLUX_{lpBond}
-$$
-
-The stable coin balance in the treasury grows when bonds are sold. Backing per **LUX** is calculated differently for different mints types.
+The intuition here is for each Luxor in circulation, the DAO is able to cover each Luxor by an equal share of the protocol's reserves. These reserves are stated in the Dashboard and equal to the following:
 
 $$
-BackingPerLUX_{reserveBond} = assetSupplied
+Reserves = DAI_b - FTM_b * FTM_p
 $$
 
-For reserve mints such as **DAI** minting, the Backing per **LUX** simply equals to the amount of the underlying asset supplied by the minter.
-
-$$
-BackingPerLUX_{lpBond} = 2sqrt(constantProduct) * (\%\ ownership\ of\ the\ pool)
-$$
-
-For LP Mints such as **LUX-FTM Minting**, their backing per **LUX** is calculated differently because the protocol needs to mark down its value.&#x20;
-
-_Why?_ The LP token pair consists of **LUX**, and each **LUX** in circulation will be backed by these LP tokens - there is a cyclical dependency. To safely guarantee all circulating **LUX** are backed, the protocol marks down the value of these LP tokens.
+Where _b_ is the balance held in the Treasury and _p_ is the asset price.
