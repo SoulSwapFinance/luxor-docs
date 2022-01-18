@@ -119,7 +119,7 @@ The assets in the treasury may be divided into two categories: reserves and liqu
 The intuition here is for each Luxor in circulation, the DAO is able to cover each Luxor by an equal share of the protocol's reserves. These reserves are stated in the Dashboard and equal to the following:
 
 $$
-Reserves = DAI_b - FTM_b * FTM_p
+Reserves = DAI_b + (FTM_b * FTM_p)
 $$
 
 Where _b_ is the balance held in the Treasury and _p_ is the asset price.
