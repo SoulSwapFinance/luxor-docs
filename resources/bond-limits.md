@@ -6,12 +6,12 @@ description: Each bond has a corresponding limit, as described in the tables bel
 
 ### DAI Asset Limits
 
-|   Term  |   Debt Limit   |
-| :-----: | :------------: |
-|  5 Days | 12500000000000 |
-|  7 Days | 25000000000000 |
-| 2 Weeks | 32000000000000 |
-| 4 Weeks | 50000000000000 |
+|   Term  |    Debt Limit   |
+| :-----: | :-------------: |
+|  5 Days |  12500000000000 |
+|  7 Days |  25000000000000 |
+| 2 Weeks |  50000000000000 |
+| 4 Weeks | 100000000000000 |
 
 ### DAI-LUX Asset Limits
 
