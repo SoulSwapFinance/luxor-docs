@@ -4,7 +4,7 @@
 
 ## Bonds <a href="#bonds" id="bonds"></a>
 
-Every time a user Mints LUX on Luxor, they are actually purchasing a **bond**.&#x20;
+Every time a user Mints LUX on Luxor, they are actually purchasing a **bond**.
 
 These "Bonds" have different parameters, including the **BCV,** which allows us to scale the rate at which bond premiums increase. A higher BCV means a lower discount for bonders and more protocol profit. A lower BCV means a higher discount for bonders and less protocol profit.
 
@@ -24,4 +24,8 @@ There are no variables in the staking contract. **LUX** and **LUMens** are alway
 
 ## Buy-Back Policy <a href="#staking" id="staking"></a>
 
-In the interest of maintaining our backing (floor) price, we are instituting a policy that enables the treasury to buy back LUXOR off the market to store in the DAO and burn (50/50). This policy will take place any time the market price falls within a non-specific threshold. This threshold is intentionally unannounced in an attempt to prevent bad actors from manipulating the process to their benefit.&#x20;
+In the interest of maintaining our backing (floor) price, we are instituting a policy that enables the treasury to buyback LUX off the market.\
+\
+This policy will take place any time the market price falls within a non-specific threshold. This threshold is intentionally unannounced in an attempt to prevent bad actors from manipulating the process to their benefit.\
+\
+Additionally, the exact division of the policy allocation of LUX buybacks are reflected in the resources section and updated on occasion. As is the case with the Bond Limits, all updates will be immediately documents and announced the day of the implementation, for full transparency.
