@@ -28,7 +28,7 @@ Whilst investments remain in the treasury, it's relevant to list them as a 'temp
 
 #### Buybacks
 
-On occasion, treasury funds are used to buy back and burn tokens. This mechanism is only used in periods of prolonged contraction, when the conditions are met, as specified in our [resources section](../resources/buyback-allocation.md).
+On occasion, treasury funds are used to buy back and burn tokens. This mechanism is only used in periods of prolonged contraction, when the conditions are met, as specified in our [resources section](resources/buyback-allocation.md).
 
 ## DAO Wallet
 

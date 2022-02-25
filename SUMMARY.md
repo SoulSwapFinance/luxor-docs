@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Value Creation](value-creation.md)
 
 ## Basics
 
-* [Value Creation](basics/value-creation.md)
 * [FAQ](basics/faq.md)
 * [Staking](basics/staking.md)
 * [Minting](basics/minting.md)
