@@ -4,6 +4,7 @@
 
 ## Basics
 
+* [Value Creation](basics/value-creation.md)
 * [FAQ](basics/faq.md)
 * [Staking](basics/staking.md)
 * [Minting](basics/minting.md)
