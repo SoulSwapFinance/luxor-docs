@@ -8,7 +8,7 @@ description: Each bond has a corresponding limit, as described in the tables bel
 
 |   Term  |   Debt Limit   |
 | :-----: | :------------: |
-|  5 Days | 12500000000000 |
+|  5 Days | 10000000000000 |
 |  7 Days | 12500000000000 |
 | 2 Weeks | 25000000000000 |
 | 4 Weeks | 25000000000000 |
@@ -17,7 +17,7 @@ description: Each bond has a corresponding limit, as described in the tables bel
 
 |   Term  |   Debt Limit  |
 | :-----: | :-----------: |
-|  5 Days | 2500000000000 |
+|  5 Days | 1250000000000 |
 |  7 Days | 2500000000000 |
 | 2 Weeks | 5000000000000 |
 | 4 Weeks | 5000000000000 |
@@ -26,7 +26,7 @@ description: Each bond has a corresponding limit, as described in the tables bel
 
 |   Term  |   Debt Limit   |
 | :-----: | :------------: |
-|  5 Days | 12500000000000 |
+|  5 Days | 10000000000000 |
 |  7 Days | 12500000000000 |
 | 2 Weeks | 25000000000000 |
 | 4 Weeks | 25000000000000 |
@@ -35,7 +35,7 @@ description: Each bond has a corresponding limit, as described in the tables bel
 
 |   Term  |   Debt Limit  |
 | :-----: | :-----------: |
-|  5 Days | 2500000000000 |
+|  5 Days | 1250000000000 |
 |  7 Days | 2500000000000 |
 | 2 Weeks | 5000000000000 |
 | 4 Weeks | 5000000000000 |
