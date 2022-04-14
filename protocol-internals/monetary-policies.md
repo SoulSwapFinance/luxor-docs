@@ -28,4 +28,13 @@ In the interest of maintaining our backing (floor) price, we are instituting a p
 \
 This policy will take place any time the market price falls within a non-specific threshold. This threshold is intentionally unannounced in an attempt to prevent bad actors from manipulating the process to their benefit.\
 \
-Additionally, the exact division of the policy allocation of LUX buybacks are reflected in the resources section, under [Buyback Allocation](../resources/buyback-allocation.md) and updated on occasion. As is the case with the Bond Limits, all updates will be immediately documents and announced the day of the implementation, for full transparency.
+Additionally, the exact division of the policy allocation of LUX buybacks are reflected in the resources section, under [Buyback Allocation](../resources/buyback-allocation.md) and updated on occasion. As is the case with the ~~Bond Limits~~, all updates will be immediately documented. \
+\
+**Please Note**: we are no longer limiting bonds, but instead enforcing a new rule (**Minimum Price Requirement**) as explained below.
+
+### Minimum Price Requirement
+
+All bonds are now subject to a lower bond, such that the discount of any given bond f**ollows closely with the backing price of LUX**. \
+\
+The motivation for this decision is due to the impact of steep-discounts that were provided on Luxor Bonds, in the past. **Long gone are the days of 50%+ discounts, thanks to this new policy**.
+
