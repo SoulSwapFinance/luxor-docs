@@ -13,23 +13,22 @@ $$
 Swaps between **LUX** and **LUM** during deposits and withdrawals are always honored 1:1. The amount of **LUX** deposited will always result in the same amount of **LUM**. The amount of **LUM** withdrawn from the staking contract will always result in the same amount of **LUX**.
 
 $$
-rebase = 1 - ( LUXDeposits / LUM
-Outstanding )
+rebase = 1 - ( LUX_D / LUM _O)
 $$
 
-The treasury deposits **LUX** into the distributor. The distributor then deposits **LUX** into the staking contract, creating an imbalance between **LUX** and **LUM**.&#x20;
+The treasury deposits **LUX** into the distributor. The distributor then deposits **LUX** into the staking contract, creating an imbalance between **LUX** and **LUM**.
 
-**LUM** is rebased to correct this imbalance between **LUX** deposited and **LUM** outstanding. The rebase brings **LUM** outstanding back up to parity so that 1 **LUM** equals 1 staked **LUX**.
+**LUM** is rebased to correct this imbalance between **LUX** deposited (_**d**_) and **LUM** outstanding (_**o**_). The rebase brings **LUM** outstanding back up to parity so that 1 **LUM** equals 1 staked **LUX**.
 
 ## Circulating Supply
 
-**Circulating Supply** is equal to total **LUX** minted, minus the total balance of Luxor stored in the DAO smart contract, our liquidity pools, bonds, or staked.
+**Circulating Supply** is equal to total **LUX** minted, minus the total balance of Luxor stored as collateral for **SOR** (**s**), our stable coin.
 
 $$
-circulating = total - dao - pooled - mintable - staked
+circulating = total - backing_s
 $$
 
-## Minting // Price
+## Minting and Bond Price
 
 Minting enables users to purchase bonds. This bond price is the mint price.
 
@@ -59,9 +58,9 @@ $$
 bondPayout_{reserveBond} = marketValue_{asset}\ /\ bondPrice
 $$
 
-Bond payout determines the number of **LUX** sold to a minter.&#x20;
+Bond payout determines the number of **LUX** sold to a minter.
 
-For reserve mints, the market value of the assets supplied by the minter is used to determine the bond payout.&#x20;
+For reserve mints, the market value of the assets supplied by the minter is used to determine the bond payout.
 
 For example, if a user supplies **1000 DAI** and the mint price is **250 DAI**, the user will be entitled 4 **LUX**.
 
@@ -69,36 +68,36 @@ $$
 bondPayout_{lpBond} = marketValue_{lpToken}\ /\ bondPrice
 $$
 
-For liquidity mints, the market value of the LP tokens supplied by the minter is used to determine the bond payout. For example, if a user supplies **0.001 LUX-FTM LP token** which is valued at **1000 DAI** at the time of bonding, and the bond price is **250 DAI**, the user will be entitled 4 **LUX**.&#x20;
+For liquidity mints, the market value of the LP tokens supplied by the minter is used to determine the bond payout. For example, if a user supplies **0.001 LUX-FTM LP token** which is valued at **1000 DAI** at the time of bonding, and the bond price is **250 DAI**, the user will be entitled 4 **LUX**.
 
 ## **Luxor** Supply
 
 $$
-LUX_{supplyGrowth} = LUX_{stakers} + LUX_{bonders} + LUX_
-{DAO}
+LUX_{supplyGrowth} = LUX_{stakers} + LUX_{bonders} + LUX_ {DAO}
 $$
 
 **LUX** supply does not have a hard cap. Its supply increases when:
 
-* **LUX** is minted and distributed to the stakers.
-* **LUX** is minted for the bonder. This happens whenever someone purchases a bond.
-* **LUX** is minted for the DAO. This happens whenever someone purchases a bond. The **DAO** gets the same number of **LUX** as the bonder.
+* **LUX** is minted and distributed to **LUM** holders (those staking LUX).
+* **LUX** is minted for the bonder. This happens whenever a bond is purchased.
+* **LUX** is minted for the DAO.&#x20;
+  * This happens whenever someone purchases a bond with a tax fee.
 
 $$
 LUX_{stakers} = LUX_{totalSupply} * rewardRate
 $$
 
-At the end of each epoch, the treasury mints **LUX** at a set reward rate. These **LUX** will be distributed to all the stakers in the protocol.&#x20;
+At the end of each epoch, the treasury mints **LUX** at a set reward rate. These **LUX** will be distributed to those staking in the protocol.
 
 $$
 LUX_{bonders} = bondPayout
 $$
 
-Whenever someone purchases a bond, a set number of **LUX** is minted.&#x20;
+Whenever someone purchases a bond, a set number of **LUX** is minted.
 
-These **LUX** will not be released to the minter all at once - they are vested to the bonder linearly over time.&#x20;
+These **LUX** will not be released to the minter all at once - they are vested to the bonder linearly over time.
 
-The bond payout uses a different formula for different types of bonds.&#x20;
+The bond payout uses a different formula for different types of bonds.
 
 Check the Minting section above to see how it is calculated.
 
@@ -111,12 +110,16 @@ The DAO receives the same amount of **LUX** as the minter. This represents the *
 ## **Backing Price (Price Floor)**
 
 $$
-Price Floor = Reserves / Supply
+Price Floor = Reserves / Supply_c
 $$
 
-The assets in the treasury may be divided into two categories: reserves and liquidity. Unlike other reserve currencies, **Luxor DAO guarantees a defendable price floor**, which is determined by the equation above.
+Treasury assets may be divided into two categories: **reserves and liquidity.**&#x20;
 
-The intuition here is for each dollar value in our reserves, we are able to cover the total supply at a floating price floor. _Reserves_ are stated in the Dashboard and equal to the following:
+Unlike other reserve currencies, **Luxor DAO guarantees a defendable price floor**, which is determined by the equation above, where the floor equals the value of the protocol's reserves divided by the circulating (_**c**_) supply.
+
+The intuition here is for each dollar value in our reserves, we are able to cover the circulating supply at a floating price floor.&#x20;
+
+_Reserves_ are stated in the Dashboard and equal to the following:
 
 $$
 Reserves = DAI_b + (FTM_b * FTM_p)

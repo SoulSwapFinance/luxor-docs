@@ -4,11 +4,11 @@ description: Luxor Money's Documentation
 
 # Introduction
 
-## What is Luxor?
+## What's Luxor?
 
-[**Luxor**](https://luxor.money) is the first decentralized reserve currency protocol available on the **Fantom Opera Network** based on the **LUX** token. Each **LUX** token is backed by a basket of assets (e.g., DAI, LUX-FTM LP Tokens, etc.) in the **Luxor** treasury, giving it an intrinsic value that it cannot fall below. **Luxor** also introduces economic and game-theoretic dynamics into the market through staking and minting.
+[**Luxor**](https://luxor.money) is the first decentralized reserve currency protocol available on the **Fantom Opera Network** based on the **LUX** token. Each **LUX** token is backed by a basket of assets (e.g., **SOR, LUX-SOR LP** Tokens, etc.) in the **Luxor** treasury, giving it an intrinsic value that it cannot fall below. **Luxor** also introduces economic and game-theoretic dynamics into the market through staking and minting.
 
-## What is the point?
+## What's the point?
 
 Our goal is to build a policy-controlled currency system, native on the **FTM** network. In the long term, we believe this system can be used to optimize for stability and consistency so that **LUX** can function as a global unit-of-account and medium-of-exchange currency. In the short term, we intend to optimize the system for growth and wealth creation.
 
@@ -16,7 +16,7 @@ We intend to achieve price flatness for a representative basket of goods without
 
 ## How do I participate? <a href="#how-do-i-participate-in-olympus" id="how-do-i-participate-in-olympus"></a>
 
-There are two main strategies for market participants: [**staking**](https://app.luxor.money/stake) and minting. Stakers stake their **LUX** tokens in return for more **LUX**, while minters provide **LP**s**, FTM,** or **DAI** tokens for discounted **LUX** after a fixed vesting period.
+There are two main strategies for market participants: [**staking**](https://app.luxor.money/stake) and minting. Users may stake their **LUX** in return for more **LUX**, while minters provide **LP**s**, FTM,** or **SOR** for discounted **LUX** after a fixed vesting period.
 
 ## How can I benefit? <a href="#how-can-i-benefit-from-olympus" id="how-can-i-benefit-from-olympus"></a>
 

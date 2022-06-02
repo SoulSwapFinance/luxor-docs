@@ -4,5 +4,5 @@ Buybacks are discussed in detail in the [Monetary Policies](../protocol-internal
 
 | Destination  | Allocation |
 | ------------ | ---------- |
-| Luxor DAO    | 25%        |
-| Burn Address | 75%        |
+| Luxor DAO    | 50%        |
+| Burn Address | 50%        |

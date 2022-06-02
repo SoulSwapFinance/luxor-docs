@@ -28,6 +28,5 @@
 ## Resources
 
 * [Buyback Allocation](resources/buyback-allocation.md)
-* [Bond Limits](resources/bond-limits.md)
 * [Equations](resources/equations.md)
 * [Glossary](resources/glossary.md)
