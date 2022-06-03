@@ -28,7 +28,7 @@ In the interest of maintaining our backing (floor) price, we are instituting a p
 \
 This policy will take place any time the market price falls within a non-specific threshold. This threshold is intentionally unannounced in an attempt to prevent bad actors from manipulating the process to their benefit.\
 \
-Additionally, the exact division of the policy allocation of LUX buybacks are reflected in the resources section, under [Buyback Allocation](../resources/buyback-allocation.md) and updated on occasion. As is the case with the ~~Bond Limits~~, all updates will be immediately documented. \
+Additionally, the exact division of the policy allocation of LUX buybacks are reflected in the resources section, under [Buyback Allocation](../resources/buyback-allocation.md) and updated on occasion. ~~As is the case with the Bond Limits~~, all updates will be immediately documented. \
 \
 **Please Note**: we are no longer limiting bonds, but instead enforcing a new rule (**Minimum Price Requirement**) as explained below.
 
