@@ -36,7 +36,7 @@ $$
 bond Price = 1 + Premium
 $$
 
-**LUX** has an intrinsic value of **1 DAI**, which is roughly equivalent to $1. In order to make a profit from minting, **Luxor** charges a premium for each minting action.
+**LUX** has an intrinsic value of **1 USD** (not to be confused by **backing** as defined below), which is roughly equivalent to $1. In order to make a profit from minting, **Luxor** charges a premium for each minting action.
 
 $$
 Premium = debt Ratio * BCV
