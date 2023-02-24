@@ -24,7 +24,7 @@ In many cases, _Capital Gains Tax is lower than Income Tax_, and so it would be 
 
 ## How Does It Work?
 
-Users may wrap their LUM tokens on our [dashboard](https://app.luxor.money/).
+Users may wrap their LUM tokens on our [dashboard](https://soul.sh/luxor).
 
 The wLUM token price is calculated as follows:
 

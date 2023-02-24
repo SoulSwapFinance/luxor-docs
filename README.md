@@ -6,7 +6,7 @@ description: Luxor Money's Documentation
 
 ## What's Luxor?
 
-[**Luxor**](https://luxor.money) is the first decentralized reserve currency protocol available on the **Fantom Opera Network** based on the **LUX** token. Each **LUX** token is backed by a basket of assets (e.g., **SOR, LUX-SOR LP** Tokens, etc.) in the **Luxor** treasury, giving it an intrinsic value that it cannot fall below. **Luxor** also introduces economic and game-theoretic dynamics into the market through staking and minting.
+[**Luxor**](https://soul.sh/luxor) is the first decentralized reserve currency protocol available on the **Fantom Opera Network** based on the **LUX** token. Each **LUX** token is backed by a basket of assets (e.g., **SOR, LUX-SOR LP** Tokens, etc.) in the **Luxor** treasury, giving it an intrinsic value that it cannot fall below. **Luxor** also introduces economic and game-theoretic dynamics into the market through staking and minting.
 
 ## What's the point?
 

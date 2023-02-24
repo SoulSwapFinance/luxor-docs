@@ -1,6 +1,6 @@
 # Monetary Policies
 
-**​**[**Luxor**](https://app.luxor.money) features policy constants that allow us to optimize the system.
+**​**[**Luxor**](https://soul.sh/luxor) features policy constants that allow us to optimize the system.
 
 ## Bonds <a href="#bonds" id="bonds"></a>
 
